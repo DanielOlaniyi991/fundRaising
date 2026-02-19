@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@Coronation-ArchTouch/cor-ui": "^0.1.19",
+    "@Coronation-ArchTouch/cor-ui-icons": "^0.0.4",
     "next": "16.1.4",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
