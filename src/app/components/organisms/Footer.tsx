@@ -12,7 +12,7 @@ const Footer = () => {
     },
     {
       Icon: FaLinkedin,
-      href: "http://linkedin.com/company/coronation-trustees",
+      href: "http://linkedin.com/company/coronationgroup",
     },
     {
       Icon: FaInstagram,
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
 
         {/* 3-Column Grid for Main Services, Self Services, and Follow Us */}
-        <div className="grid !grid-cols-1 md:!grid-cols-3 gap-10 lg:gap-16">
+        <div className="grid !grid-cols-1 md:!grid-cols-3 !gap-10 lg:!gap-16">
           {/* Main Services */}
           <div>
             <Typography
@@ -51,7 +51,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/products-solutions/asset-management/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Asset Management
@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/products-solutions/insurance/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Insurance
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/products-solutions/private-banking/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Private Banking & Wealth Management
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/institutional/products-solutions/investment-banking/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Corporate & Investment Banking
@@ -83,7 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/institutional/about-us/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   All subsidiaries
@@ -104,7 +104,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/"
+                  href="https://claims.coronation.ng"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Submit Claim
@@ -112,7 +112,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://coronation.ng/self-service/"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Account Login

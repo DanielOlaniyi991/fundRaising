@@ -177,9 +177,7 @@ const PaymentDetailsPage = () => {
     if (!donationData || !isPaystackLoaded) return;
 
     const handler = window.PaystackPop.setup({
-      key:
-        process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY ||
-        "pk_test_8ddc4c7696f16ae48eedc7733bbe976fa9b77784", // Replace with your public key
+      key: process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY,
       email: donationData.email,
       amount: donationData.amount * 100, // Amount in kobo (for NGN)
       currency: "NGN",
